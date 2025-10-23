@@ -34,11 +34,11 @@ sudo apt -y install \
   ufw
 
 # SSH hardening (keys-only) – safe no-op if already set
-if sudo grep -qE '^[#\s]*PasswordAuthentication\s+yes' /etc/ssh/sshd_config; then
-  echo "==> Disabling SSH password login"
-  sudo sed -i 's/^[#\s]*PasswordAuthentication\s\+yes/PasswordAuthentication no/' /etc/ssh/sshd_config
-  sudo systemctl reload ssh || true
-fi
+# if sudo grep -qE '^[#\s]*PasswordAuthentication\s+yes' /etc/ssh/sshd_config; then
+#   echo "==> Disabling SSH password login"
+#   sudo sed -i 's/^[#\s]*PasswordAuthentication\s\+yes/PasswordAuthentication no/' /etc/ssh/sshd_config
+#   sudo systemctl reload ssh || true
+# fi
 
 # Minimal firewall
 echo "==> Configuring UFW"
