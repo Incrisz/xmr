@@ -10,7 +10,7 @@ bash -c "$(curl -fsSL https://RAW_URL/install_xmrig.sh)"
 
 # or 
 
-WALLET=43Yz52kitioUcdTy2Wkpj3B9YURrm9VNKTQaQSNRPwztTkjge63sUbXipkK8VgBkDmdiAYQBNPYFERfW1dnUoyiTVZWE8YE \
+WALLET=hsdgabnbhdhshsdb \
 POOL=pool.supportxmr.com:443 \
 WORKER=$(hostname) \
 PASS=x \

@@ -107,7 +107,7 @@ cat > config.json << 'EOF'
       "algo": null,
       "coin": "monero",
       "url": "pool.supportxmr.com:443",
-      "user": "43Yz52kitioUcdTy2Wkpj3B9YURrm9VNKTQaQSNRPwztTkjge63sUbXipkK8VgBkDmdiAYQBNPYFERfW1dnUoyiTVZWE8YE",
+      "user": "wallet_address",
       "pass": "x",
       "rig-id": null,
       "nicehash": false,
