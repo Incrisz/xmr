@@ -8,7 +8,10 @@ bash -c "$(curl -fsSL https://RAW_URL/install_xmrig.sh)" \
 WALLET=YOUR_XMR_ADDRESS POOL=pool.supportxmr.com:443 WORKER=$(hostname) PASS=x TLS=true \
 bash -c "$(curl -fsSL https://RAW_URL/install_xmrig.sh)"
 
-# or 
+# or just fix in the address
+
+sudo mkdir -p /opt
+sudo chown -R ubuntu:ubuntu /opt
 
 WALLET=hsdgabnbhdhshsdb \
 POOL=pool.supportxmr.com:443 \
